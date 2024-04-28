@@ -5,6 +5,18 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "githubActionTest", "githubActionTest\githubActionTest.csproj", "{5C20D16B-6F80-4433-AECB-57D1CB5D166A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{43877243-978B-423B-8E42-D7145A838059}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D56B4961-A806-4129-9E0C-44591C76AE16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8D080156-43BC-4EBE-85B6-F450D456A05B}"
+	ProjectSection(SolutionItems) = preProject
+		test.yml = test.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +30,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D080156-43BC-4EBE-85B6-F450D456A05B} = {D56B4961-A806-4129-9E0C-44591C76AE16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF81A8FB-D90E-4683-8873-5700B61B3D29}

@@ -12,3 +12,9 @@ jobs:
            echo "hello!"
            mkdir test
            ls -a
+
+        - name: Clone to VM
+          uses: actions/checkout@v2
+
+        - name: Step3
+          run: ls -a

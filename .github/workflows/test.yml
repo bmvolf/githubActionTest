@@ -8,8 +8,7 @@ jobs:
 
         steps:
         - name: Print message
-          run: echo "hello!"
-        - name: Step 2
-          run: mkdir test
-        - name: Step 3
-          run: ls -a
+          run: |
+           echo "hello!"
+           mkdir test
+           ls -a
